@@ -38,7 +38,7 @@ const Navigation = () => {
         <div className="h-[1.75rem] w-[1px] bg-white" />
         <ul className="flex gap-4 text-[0.875rem] text-[#fffffa]">
           {links.map((link) => (
-            <li>{link.label}</li>
+            <li key={link.label}>{link.label}</li>
           ))}
         </ul>
       </div>
