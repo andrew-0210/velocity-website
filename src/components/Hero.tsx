@@ -1,13 +1,12 @@
 import Button from "./Button";
 
-
 const Hero = () => {
   return (
-    <main className="flex h-screen flex-col justify-center gap-5 bg-gradient-to-t from-[#e5fdb5] via-[#fcfff5] to-[#fafafa] py-[12rem]">
-      <h1>
+    <main className="flex h-screen flex-col justify-center gap-5 bg-gradient-to-t from-[#e5fdb5] via-[#f6ffe1] to-[#fafafa] py-[12rem]">
+      <h1 className="subpixel-antialiased">
         Examine the Future Landscape of <br /> Digital Wallet Solutions Today.
       </h1>
-      <p className="text-center font-medium tracking-tight text-[#797979]">
+      <p className="text-center font-medium tracking-tight text-[#797979] subpixel-antialiased">
         Embark on a journey to discover your dream home by exploring our
         <br />
         premier listings available for browsing today.

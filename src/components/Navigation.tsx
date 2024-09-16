@@ -1,30 +1,39 @@
+"use client";
+
 import Image from "next/image";
 import React from "react";
 import Container from "./Container";
+import { usePathname } from "next/navigation";
+import Link from "next/link";
 const links = [
   {
     href: "/",
-    label: "Product",
+    name: "Home",
   },
   {
-    href: "/",
-    label: "Resources",
+    href: "/product",
+    name: "Product",
   },
   {
-    href: "/",
-    label: "Pricing",
+    href: "/resources",
+    name: "Resources",
   },
   {
-    href: "/",
-    label: "Solutions",
+    href: "/pricing",
+    name: "Pricing",
   },
   {
-    href: "/",
-    label: "About us",
+    href: "/solutions",
+    name: "Solutions",
+  },
+  {
+    href: "/about_us",
+    name: "About us",
   },
 ];
 
 const Navigation = () => {
+  const pathname = usePathname();
   return (
     <Container>
       <nav className="fixed top-[2%] rounded-full bg-[#2a2a2a] px-[1.5rem] py-[0.5rem] md:w-[1440px]">
@@ -39,9 +48,24 @@ const Navigation = () => {
           </div>
           <div className="h-[1.75rem] w-[1px] bg-white" />
           <ul className="flex gap-4 text-[0.875rem] text-[#fffffa]">
-            {links.map((link) => (
-              <li key={link.label}>{link.label}</li>
-            ))}
+            {links.map((link) => {
+              const isActive =
+                link.href === "/"
+                  ? pathname === link.href
+                  : pathname.startsWith(link.href);
+              return (
+                <li key={link.name}>
+                  <Link
+                    href={link.href}
+                    className={
+                      isActive ? "font-bold text-[#b1f32b]" : "text-white"
+                    }
+                  >
+                    {link.name}
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
         </div>
       </nav>

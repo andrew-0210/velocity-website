@@ -8,13 +8,14 @@ type ButtonProps = React.ComponentPropsWithoutRef<"button"> & {
 };
 
 const button = cva(
-  "font-semibold text-[0.875rem] m-[0.25rem] border  rounded-full",
+  "font-semibold text-[0.875rem] m-[0.25rem] border rounded-full",
   {
     variants: {
       intent: {
         primary:
-          "bg-[#bef94c] text-[#1a1a1a] hover:bg-[#b7e953] border-[#bef94c]",
-        secondary: "bg-[#fffffa] text-[#797979] border-[#bebebe]",
+          "bg-[#bef94c] text-[#1a1a1a] hover:bg-[#b7e953] hover:ring-[#b7e953]  border-[#fafafa] ring-2 ring-[#bef94c] ",
+        secondary:
+          "bg-[#fffffa] text-[#797979] border-[#bebebe] ring-2 ring-[#fafafa]",
         tertiary: "bg-[#2973c7] text-[#fffffa]",
       },
       size: {
