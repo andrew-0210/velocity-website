@@ -29,7 +29,7 @@ const Statistics = () => {
       </p>
       <div className="flex flex-col gap-2 md:grid md:grid-cols-12 md:gap-[2rem]">
         {stats.map((data) => (
-          <div className="col-span-4 rounded-xl border border-[#d8d8d8] px-[2rem] py-[2rem]">
+          <div className="col-span-4 rounded-xl border border-[#d8d8d8] px-[2rem] py-[2rem]" key={data.stat}>
             <p className="mb-[0.5rem] text-center text-[1.75rem] font-semibold tracking-tight">
               {data.stat}
             </p>
