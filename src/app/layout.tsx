@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${manrope.className} relative`}>
+      <body className={`${manrope.className} relative selection:bg-[#b1f32b]`}>
         <Navigation />
         {children}
       </body>
