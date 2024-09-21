@@ -10,7 +10,7 @@ const whatWeDo = [
   { href: "/", name: "Payment" },
 ];
 const whoWeAre = [
-  { href: "/", name: "About Us" },
+  { href: "/about_us", name: "About Us" },
   { href: "/", name: "Careers" },
   { href: "/", name: "Brand Center" },
   { href: "/", name: "Privacy" },
@@ -19,7 +19,7 @@ const useVelocity = [
   { href: "/", name: "Android" },
   { href: "/", name: "Iphone" },
   { href: "/", name: "Mac/PC" },
-  { href: "/", name: "Velocity Web" },
+  { href: "/login", name: "Velocity Web" },
 ];
 const needHelp = [
   { href: "/", name: "Contact Us" },
@@ -36,7 +36,7 @@ const Footer = () => {
           <div className="col-span-4 flex flex-col gap-2">
             <div className="relative h-[3rem] w-[10rem]">
               <Image
-                src="/velocity_logo.svg"
+                src="./velocity_logo.svg"
                 alt="velocity_logo"
                 fill={true}
                 className="select-none object-contain"
@@ -113,7 +113,7 @@ const Footer = () => {
         <div className="relative select-none overflow-y-hidden md:h-[10.875rem] lg:h-[15.5rem]">
           <div className="z-1 absolute h-[100%] w-full bg-gradient-to-t from-[#141414] to-[#141414]/0" />
           <div className="bg-gradient-to-b from-[#7b7b7b] to-[#212121] bg-clip-text">
-            <span className="block text-center text-[5.2rem] font-medium uppercase leading-[1] tracking-tight text-transparent md:text-[12rem] lg:text-[18rem]">
+            <span className="block text-center text-[5.2rem] font-normal uppercase leading-[1] tracking-tight text-transparent subpixel-antialiased md:text-[12rem] lg:text-[18rem]">
               Velocity
             </span>
           </div>

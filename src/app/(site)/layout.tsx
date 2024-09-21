@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${manrope.className} relative selection:bg-[#edc0ff] selection:text-[#2a2a2a]`}
+        className={`${manrope.className} relative subpixel-antialiased selection:bg-[#edc0ff] selection:text-[#2a2a2a]`}
       >
         <Navigation />
         {children}
