@@ -2,7 +2,7 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <main className="flex min-h-[80vh] flex-col justify-center gap-5 bg-gradient-to-t from-[#e5fdb5] via-[#f6ffe1] to-[#fafafa] py-[12rem]">
+    <main className="flex min-h-[80vh] flex-col justify-center gap-5 bg-gradient-to-t from-[#dc85ff] via-[#fbf0ff] to-[#fafafa] py-[12rem]">
       <h1 className="subpixel-antialiased">
         Examine the Future Landscape of <br /> Digital Wallet Solutions Today.
       </h1>
