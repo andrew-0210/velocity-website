@@ -14,7 +14,8 @@ const button = cva(
       intent: {
         primary:
           "bg-[#653fe1] text-[#fafafa] hover:bg-[#452b9a] hover:ring-[#452b9a] border-[#fafafa] ring-2 ring-[#653fe1] ",
-        secondary: " text-[#653fe1] border-[#fafafa] ring-2 ring-[#653fe1]",
+        secondary:
+          " text-[#fafafa] bg-[#2a2a2a] border-[#fafafa] ring-2 ring-[#2a2a2a]",
         tertiary: "bg-[#2973c7] text-[#fffffa]",
       },
       size: {

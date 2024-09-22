@@ -8,5 +8,8 @@
     @apply text-[1.75rem] font-semibold sm:text-[2.25rem] lg:text-[2.75rem] leading-tight text-center tracking-tighter sm:font-medium
   }
 
+  h2 {
+    @apply text-[1.5rem] font-semibold leading-tight tracking-tighter md:text-[2rem]
+  }
 
 }

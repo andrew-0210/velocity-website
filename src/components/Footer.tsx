@@ -118,7 +118,7 @@ const Footer = () => {
             </span>
           </div>
         </div>
-        <div className="flex justify-between border-t-[1px] border-[#797979] py-[1.5rem]">
+        <div className="flex justify-between border-t-[1px] border-[#797979] py-[1.5rem] font-semibold">
           <p>&copy; Velocity {new Date().getFullYear()}</p>
           <div className="flex gap-4">
             <Link href="/" replace>

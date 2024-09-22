@@ -21,7 +21,7 @@ const Statistics = () => {
   return (
     <Container>
       <section className="flex flex-col gap-5 py-[7.5rem]">
-        <h2 className="text-center text-[1.5rem] font-semibold leading-tight tracking-tighter md:text-[2rem]">
+        <h2 className="text-center">
           User Statistics for E-Wallet: Insights into Platform
           <br /> Engagement and Growth.
         </h2>
