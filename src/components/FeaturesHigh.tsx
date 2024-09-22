@@ -22,7 +22,7 @@ const FeaturesHigh = () => {
         <div className="col-span-6">
           <div className="relative h-[350px] md:h-[500px]">
             <Image
-              src="/Chat.png"
+              src="./Chat.png"
               alt="product_image"
               fill={true}
               className="object-contain"
@@ -46,7 +46,7 @@ const FeaturesHigh = () => {
         <div className="col-span-6 col-start-1 col-end-6 row-start-1">
           <div className="relative h-[350px] md:h-[500px]">
             <Image
-              src="/MyTeam.png"
+              src="./MyTeam.png"
               alt="product_image"
               fill={true}
               className="object-contain"

@@ -18,7 +18,7 @@ const CTABanner = () => {
         <div className="col-span-4 col-start-8 col-end-13">
           <div className="relative h-[350px] md:h-[500px]">
             <Image
-              src="/Check in.png"
+              src="./Check in.png"
               alt="product_image"
               fill={true}
               className="object-contain"
