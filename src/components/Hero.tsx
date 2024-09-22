@@ -20,7 +20,7 @@ const Hero = () => {
 
         <div className="relative h-[350px] w-auto md:h-[600px]">
           <Image
-            src="/Check in.png"
+            src="./Check in.png"
             alt="Velocity_Image"
             className="object-contain"
             fill={true}
