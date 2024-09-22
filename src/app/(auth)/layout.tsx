@@ -1,4 +1,9 @@
 import "../globals.css";
+import { Manrope } from "next/font/google";
+const manrope = Manrope({
+  subsets: ["latin"],
+  weight: ["200", "400", "500", "600", "700"],
+});
 
 export const metadata = {
   title: "Next.js",
@@ -12,7 +17,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body
+        className={`${manrope.className} relative select-none subpixel-antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
