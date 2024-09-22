@@ -27,7 +27,7 @@ const Tier1 = () => {
         <ul className="mt-[0.75rem] flex flex-col gap-[0.5rem] text-[0.75rem] text-[#b8b8b8]">
           <li className="flex items-center gap-[0.5rem]">
             <Image
-              src="/checkmark.svg"
+              src="checkmark.svg"
               className="w-[1rem]"
               width={16}
               height={16}
@@ -37,7 +37,7 @@ const Tier1 = () => {
           </li>
           <li className="flex items-center gap-[0.5rem]">
             <Image
-              src="/checkmark.svg"
+              src="checkmark.svg"
               className="w-[1rem]"
               width={16}
               height={16}
@@ -47,7 +47,7 @@ const Tier1 = () => {
           </li>
           <li className="flex items-center gap-[0.5rem]">
             <Image
-              src="/checkmark.svg"
+              src="checkmark.svg"
               className="w-[1rem]"
               width={16}
               height={16}
