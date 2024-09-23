@@ -107,7 +107,7 @@ const Navigation = () => {
         <div
           className={
             menuOpen
-              ? "absolute inset-x-0 inset-y-0 z-[500] flex h-screen w-full flex-col gap-4 bg-[#fafafa]/90 px-[1rem] py-[2rem] backdrop-blur-md duration-300 ease-in md:hidden"
+              ? "absolute inset-x-0 inset-y-0 z-[500] flex h-screen w-full flex-col gap-4 bg-[#fafafa] px-[1rem] py-[2rem] backdrop-blur-md duration-300 ease-in md:hidden"
               : "absolute inset-x-0 top-[-700%] flex flex-col gap-4 px-[1rem] py-[2rem] duration-300 ease-in"
           }
         >
