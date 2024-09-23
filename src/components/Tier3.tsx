@@ -43,7 +43,8 @@ const Tier3 = () => {
             ></Image>
             Censorship-resistant
           </li>
-          <li className="flex items-center gap-[0.5rem]">
+          <li className="flex items-center gap-[0.5rem]">cls
+          
             <Image
               src="checkmark.svg"
               className="w-[1rem]"

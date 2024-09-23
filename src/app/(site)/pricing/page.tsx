@@ -1,7 +1,7 @@
-import SearchBar from "@/components/SearchBar";
-import Tier1 from "@/components/Tier1";
-import Tier2 from "@/components/Tier2";
-import Tier3 from "@/components/Tier3";
+import SearchBar from "../../../components/SearchBar";
+import Tier1 from "../../../components/Tier1";
+import Tier2 from "../../../components/Tier2";
+import Tier3 from "../../../components/Tier3";
 
 const Pricing = () => {
   return (

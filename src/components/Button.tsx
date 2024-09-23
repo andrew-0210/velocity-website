@@ -2,7 +2,7 @@ import { cva } from "class-variance-authority";
 import { twMerge } from "tailwind-merge";
 
 type ButtonProps = React.ComponentPropsWithoutRef<"button"> & {
-  intent?: "primary" | "secondary" | "tertiary";
+  intent?: "primary" | "secondary";
   size?: "small" | "medium";
   btnType?: "icon" | "button";
 };
@@ -16,11 +16,10 @@ const button = cva(
           "bg-[#653fe1] text-[#fafafa] hover:bg-[#452b9a] hover:ring-[#452b9a] border-[#fafafa] ring-2 ring-[#653fe1] ",
         secondary:
           " text-[#fafafa] bg-[#2a2a2a] border-[#fafafa] ring-2 ring-[#2a2a2a]",
-        tertiary: "bg-[#2973c7] text-[#fffffa]",
       },
       size: {
         small: "px-[0.5rem] py-[0.5rem]",
-        medium: "py-[0.75rem] px-[1.75rem] min-w-[10rem]",
+        medium: "py-[0.5rem] px-[1.25rem] min-w-[8rem]",
       },
       btnType: {
         button: "",

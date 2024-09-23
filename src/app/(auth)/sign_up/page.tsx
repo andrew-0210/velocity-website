@@ -1,5 +1,5 @@
-import Form from "@/components/Form";
-import SplashScreen from "@/components/SplashScreen";
+import Form from "../../../components/Form";
+import SplashScreen from "../../../components/SplashScreen";
 
 export default function Login() {
   return (
